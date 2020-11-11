@@ -1,0 +1,19 @@
+.CovidInfoCountry {
+    flex: 0.9;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        justify-content: space-between;
+    }
+
+    &__dropdown {
+        background-color: white;
+    }
+
+    &__stats {
+        display: flex;
+        justify-content: space-between;
+    }
+}

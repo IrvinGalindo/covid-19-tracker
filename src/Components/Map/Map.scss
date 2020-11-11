@@ -1,0 +1,39 @@
+.map {
+    height: 30rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+
+    .leaflet-container {
+        height: 100%;
+    }
+}
+
+.popup {
+    &__flag {
+        height: 5.5rem;
+        width: 100%;
+        background-size: cover;
+        border-radius: 8px;
+
+        & img {
+            width: 8rem;
+            border-radius: 5px;
+        }
+    }
+
+    &__name{
+        font-size: 1rem;
+        font-weight: bold;
+        color: #555;
+    }
+
+    &__confirmed,
+    &__recovered,
+    &__deaths {
+        font-size: .9rem;
+        margin-top: 5px;
+    }
+}
